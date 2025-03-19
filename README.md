@@ -21,18 +21,10 @@ classDiagram
     }
 
     class iPhone {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+    ReprodutorMusical --> iPhone
+    AparelhoTelefonico --> iPhone
+    NavegadorInternet --> iPhone
 ```
