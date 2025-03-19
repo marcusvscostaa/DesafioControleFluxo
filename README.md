@@ -24,7 +24,7 @@ classDiagram
 
     }
 
-    ReprodutorMusical --> iPhone
-    AparelhoTelefonico --> iPhone
-    NavegadorInternet --> iPhone
+    iphone --> ReprodutorMusical 
+    iphone --> AparelhoTelefonico 
+    iphone --> NavegadorInternet 
 ```
